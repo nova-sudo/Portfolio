@@ -8,34 +8,34 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "Wawatmos",
-    url: "https://r3f-wawatmos-final.vercel.app/",
+    title: "BlackJack",
+    //add a lackack game image
     image: "projects/wawatmos.jpg",
-    description: "Recreating the Atmos Awwwards website with React Three Fiber",
+    
   },
   {
-    title: "Portfolio Baking",
-    url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
+    title: "school Management System",
+   //add a school logo 
     image: "projects/baking.jpg",
-    description: "Learn how to bake a 3D model with Blender and use it in r3f",
+    
   },
   {
-    title: "3D Avatar",
-    url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
+    title: "Hotel Management System",
+    //add hotel image 
     image: "projects/avatar.jpg",
-    description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
+    
   },
   {
-    title: "Kanagame",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
+    title: "chat application ",
+    //add link 
     image: "projects/kanagame.jpg",
-    description: "Use React Three Fiber to create a 3D game",
+    
   },
   {
-    title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
+    title: "TutorHub",
+    //add link 
     image: "projects/loader.jpg",
-    description: "Create a loading screen for your r3f projects",
+
   },
 ];
 

@@ -49,9 +49,11 @@ const AboutSection = (props) => {
     <Section mobileTop>
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
         Hi, I'm
-        <br />
-        <span className="bg-white px-1 italic">Wawa Sensei</span>
+        
+        <br/>
+        
       </h1>
+      <span className="bg-white  italic text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">Abdelrahman <br/> Mohammed</span>
       <motion.p
         className="text-lg text-gray-600 mt-4"
         initial={{
@@ -67,9 +69,9 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I make YouTube videos to help developers
-        <br />
-        learn how to build 3D apps
+        I am the FOUNDER of 
+        
+        NOVAS
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
@@ -108,7 +110,7 @@ const skills = [
     level: 90,
   },
   {
-    title: "Typescript",
+    title: "Javascript",
     level: 60,
   },
   {
@@ -118,15 +120,15 @@ const skills = [
 ];
 const languages = [
   {
-    title: "🇫🇷 French",
+    title: "🇺🇸 English",
     level: 100,
   },
   {
-    title: "🇺🇸 English",
+    title: "ARABIC",
     level: 80,
   },
   {
-    title: "🇯🇵 Japanese",
+    title: "🇫🇷 French",
     level: 20,
   },
 ];
